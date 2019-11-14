@@ -18,5 +18,5 @@ const environments = {
 };
 
 // could be imported by the client or the server
-const env = (typeof window !== "undefined" ? window.ENV : process.env.WILD_ENV) || "development";
+const env = (typeof window !== "undefined" ? window.ENV : process.env.NODE_ENV) || "development";
 module.exports = environments[env.toLowerCase()];

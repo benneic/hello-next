@@ -2,7 +2,7 @@ function Robots() {
 }
 
 Robots.getInitialProps = ({res}) => {
-  if (process.env.WILD_ENV !== "production") {
+  if (process.env.NODE_ENV !== "production") {
     res.write("User-agent: *\nDisallow: /");
     return res.end();
   }

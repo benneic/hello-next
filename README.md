@@ -276,6 +276,6 @@ location / {
 <summary><strong>Sample pm2 line to start the server</strong></summary>
 
 ```bash
-NODE_ENV=staging WILD_ENV=staging PORT=8080 pm2 start npm --name "staging" -- start
+NODE_ENV=staging PORT=8080 pm2 start npm --name "staging" -- start
 ```
 </details>

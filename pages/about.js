@@ -1,7 +1,12 @@
+// pages/about.js
+
+import React from "react";
+import Layout from "../components/MainLayout";
+
 export default function About() {
-    return (
-      <div>
-        <p>This is the about page</p>
-      </div>
-    );
-  }
+  return (
+    <Layout>
+      <p>This is the about page</p>
+    </Layout>
+  );
+}
